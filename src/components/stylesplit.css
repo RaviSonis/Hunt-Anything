@@ -1,0 +1,83 @@
+
+.split {
+    height: 90%;
+    width: 53%;
+    position: fixed;
+    top: 10%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border: 100px;
+    border-color: blue;
+    overflow-y: hidden;
+}
+
+
+.left {
+    width:760px;
+    margin-top: -4px;
+    left: 0;
+    background-image: url('movie2.jpg');
+    background-size: 900px 800px;
+    transition: opacity 1s;  
+    opacity: 0.3;
+
+}
+.left:hover {opacity: 1;}
+
+.right {
+    margin-top: -4px;
+    background-image: url('game2.jpg');
+    background-size: 900px 800px;
+    right: 0;
+    background-color: red;
+    transition: opacity 1s;
+    opacity: 0.3;
+}
+.right:hover {opacity: 1;}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered button {
+    width: 750px;
+    height: 700px;
+    ;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    top: -200px;
+    opacity: 0%;
+}
+.centered button :hover {opacity: 0}
+
+
+.header {
+    background-color: black;
+}
+
+.logo {
+    height: 65px;
+    width: 180px;
+    margin-right: 60px;
+    pointer-events: none;
+}
+
+.button{
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    color: rgb(1, 192, 255);
+    cursor: pointer;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 17px;
+    font-weight: 400;
+    margin-left:400px;
+    width: 15%;
+}
+.button:hover{
+    background-color:  rgb(1, 192, 255);
+    color: #fff;
+}
